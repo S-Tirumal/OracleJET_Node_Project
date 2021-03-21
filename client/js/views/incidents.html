@@ -1,0 +1,24 @@
+<!--
+ Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>User Login</h1>
+  <div>
+      <div>
+          <oj-input-text id="username" value="[[userName]]" label-hint="User Name" label-edge="inside"/>
+      </div> 
+      <div>
+          <oj-input-password id="password" value="[[password]]" label-hint="Password" label-edge="inside"/>
+      </div>
+      <div>
+          <oj-button id="loginBtn" on-oj-action="[[loginAction]]">
+              <span>Login</span>
+          </oj-button>
+          <oj-button id="signUpBtn" on-oj-action="[[signUpAction]]">
+              <span>Sign Up</span>
+          </oj-button>
+      </div>
+  </div>
+</div>

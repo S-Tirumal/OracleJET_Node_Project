@@ -1,0 +1,20 @@
+<!--
+ Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <div id="container">
+            <h2>Your message:</h2>
+            <div>
+                <textarea rows="1" cols="40" placeholder="Type a messsage" data-bind="textInput: currentMessage">
+
+                </textarea><br/>
+                <button type="button" data-bind="click: sendText, enable: buttonEnabled">Send</button>
+            </div>
+
+            <mytitle params="title: 'Messages'"></mytitle>
+            <messages></messages>
+
+        </div>
+</div>

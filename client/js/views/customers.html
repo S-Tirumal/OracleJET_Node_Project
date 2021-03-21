@@ -1,0 +1,27 @@
+<!--
+ Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Registration</h1>
+  <div>
+      <div>
+          <oj-input-text id="username" value="[[userName]]" label-hint="User Name" label-edge="inside"/>
+      </div>
+      <div>
+          <oj-input-text id="firstName" value="[[firstName]]" label-hint="First Name" label-edge="inside"/>
+      </div>
+      <div>
+          <oj-input-text id="lastname" value="[[lastName]]" label-hint="Last Name" label-edge="inside"/>
+      </div>
+      <div>
+          <oj-input-text id="email" value="[[email]]" label-hint="Email" label-edge="inside"/>
+      </div>
+      <div>
+          <oj-button id="signUpBtn" oj-action="[[signUpAction]]">
+              <span>Register</span>
+          </oj-button>
+      </div>
+  </div>
+</div>
